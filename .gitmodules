@@ -1,0 +1,3 @@
+[submodule "src/OSU"]
+	path = src/OSU
+	url = git@collage.united-ware.com:collage-bundle
