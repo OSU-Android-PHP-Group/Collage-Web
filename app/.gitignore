@@ -1,6 +1,7 @@
 web/sf*
 web/uploads/*
 cache/*
+!cache/.gitignore
 plugins/.*
 log/*
 config/databases.yml
