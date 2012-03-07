@@ -3,8 +3,9 @@ web/uploads/*
 cache/*
 !cache/.gitignore
 plugins/.*
-log/*
+logs/*
 config/databases.yml
 mkmf.log
+config/parameters.ini
 .rsync*
 backups/*
