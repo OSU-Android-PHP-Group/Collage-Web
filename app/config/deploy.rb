@@ -20,7 +20,7 @@ role :db,         domain, :primary => true       # This is where Rails migration
 
 # Symfony2 suggested options
 set :shared_files,      ["app/config/parameters.ini"]
-set :shared_children,     [app_path + "/logs", web_path + "/uploads", "vendors"]
-set :update_vendors, true
+set :shared_children,     [app_path + "/logs", web_path + "/uploads", "vendor"]
+set :update_vendors, false
 
 set  :keep_releases,  5
