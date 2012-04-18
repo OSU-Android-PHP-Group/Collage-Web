@@ -1,0 +1,13 @@
+[parameters]
+    database_driver="pdo_pgsql"
+    database_host="localhost"
+    database_port=""
+    database_name="collage"
+    database_user="collage"
+    database_password=""
+    mailer_transport="smtp"
+    mailer_host="localhost"
+    mailer_user=""
+    mailer_password=""
+    locale="en"
+    secret="some secret hash"
