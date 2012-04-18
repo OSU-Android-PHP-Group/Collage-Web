@@ -58,3 +58,12 @@ swiftmailer:
 jms_security_extra:
     secure_controllers:  true
     secure_all_services: false
+
+# FOSRest Configuration
+fos_rest:
+    view:
+        view_response_listener: force
+
+sensio_framework_extra:
+    view:    { annotations: false }
+    router:  { annotations: true }
