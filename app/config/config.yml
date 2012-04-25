@@ -59,13 +59,13 @@ jms_security_extra:
     secure_controllers:  true
     secure_all_services: false
 
+sensio_framework_extra:
+    view:    { annotations: false }
+    router:  { annotations: true }
+
 # FOSRest Configuration
 fos_rest:
     view:
         view_response_listener: force
     routing_loader:
         default_format: json
-
-sensio_framework_extra:
-    view:    { annotations: false }
-    router:  { annotations: true }
