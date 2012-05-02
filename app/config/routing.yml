@@ -1,5 +1,9 @@
 OSUCollageBundle:
     resource: "@OSUCollageBundle/Resources/config/routing.yml"
+    prefix: /
+
+OSUCollageAPIBundle:
+    resource: "@OSUCollageAPIBundle/Resources/config/routing.yml"
     prefix: /api
 
 # Internal routing configuration to handle ESI

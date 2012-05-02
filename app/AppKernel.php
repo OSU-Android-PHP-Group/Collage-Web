@@ -21,6 +21,7 @@ class AppKernel extends Kernel
             new JMS\SerializerBundle\JMSSerializerBundle($this),
             new FOS\RestBundle\FOSRestBundle(),
             new OSU\CollageBundle\OSUCollageBundle(),
+            new OSU\CollageAPIBundle\OSUCollageAPIBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
