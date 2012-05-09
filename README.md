@@ -45,7 +45,7 @@ that apache is running in and then execute something like this:
 
 Install the vendor plugins:
 
-    php bin/vendor install
+    php bin/vendors install
 
 #### Step 5
 
