@@ -4,7 +4,10 @@
 
 ### Getting Setup
 
-Before you can properly run the application you will need to do a few things:
+Before you start setting up your environment to run this application you must
+get Symfony working.  So, please check out the [README for Symfony](https://github.com/OSU-Android-PHP-Group/Collage-Web/blob/master/SYMFONY-README.md).
+
+Once Symfony says its alright you can continue with the following steps:
 
     1.  Set up a Virtual Host pointed to `web/` or change Apache's
         `DocumentRoot`.
