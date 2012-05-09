@@ -1,3 +1,3 @@
 [submodule "src/OSU"]
 	path = src/OSU
-	url = git@github.com:OSU-Android-PHP-Group/CollageOSUBundles.git
+	url = https://github.com/OSU-Android-PHP-Group/CollageOSUBundles.git
