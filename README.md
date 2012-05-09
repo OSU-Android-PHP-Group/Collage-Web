@@ -11,6 +11,7 @@ Before you can properly run the application you will need to do a few things:
     2.  Create a database and user and set up `app/config/parameters.ini`.
     3.  Set the proper permissions on `app/cache` and `app/logs`.
     4.  Install vendor plugins.
+    5.  Pull in git submodules (specifically the OSUBundle).
 
 #### Steps 1 and 2
 
@@ -42,9 +43,15 @@ that apache is running in and then execute something like this:
 
 #### Step 4
 
-Finally, install the vendor plugins:
+Install the vendor plugins:
 
     php bin/vendor install
+
+#### Step 5
+
+Lastly, we have to pull in the git submodules (specifically the OSU bundle).
+
+    git submodule update --init
 
 ---
 
