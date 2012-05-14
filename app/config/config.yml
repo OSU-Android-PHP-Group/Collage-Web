@@ -47,6 +47,8 @@ doctrine:
     orm:
         auto_generate_proxy_classes: %kernel.debug%
         auto_mapping: true
+        mappings:
+            StofDoctrineExtensionsBundle: false
 
 # Swiftmailer Configuration
 swiftmailer:
@@ -69,3 +71,14 @@ fos_rest:
         view_response_listener: force
     routing_loader:
         default_format: json
+
+# StofDoctrineExtensionsBundle Configuration
+# stof_doctrine_extensions:
+#    default_locale: en_US
+#    orm:
+#        default:
+#            sluggable: true
+#            timestampable: true
+#    mongodb:
+#        default: ~
+

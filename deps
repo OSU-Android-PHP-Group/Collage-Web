@@ -73,3 +73,13 @@
 [FOSRestBundle]
     git=https://github.com/FriendsOfSymfony/FOSRestBundle.git
     target=bundles/FOS/RestBundle
+
+[gedmo-doctrine-extensions]
+    git=https://github.com/l3pp4rd/DoctrineExtensions.git
+    target=/gedmo-doctrine-extensions
+    version=refs/remotes/origin/2.2.x
+
+[StofDoctrineExtensionsBundle]
+    git=https://github.com/stof/StofDoctrineExtensionsBundle.git
+    target=/bundles/Stof/DoctrineExtensionsBundle
+    version=refs/remotes/origin/1.0.x
