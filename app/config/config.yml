@@ -43,6 +43,10 @@ doctrine:
         user:     %database_user%
         password: %database_password%
         charset:  UTF8
+        types:
+            bytea: OSU\CollageAPIBundle\Type\ByteaType
+        mapping_types:
+            bytea: bytea
 
     orm:
         auto_generate_proxy_classes: %kernel.debug%
