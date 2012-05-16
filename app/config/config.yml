@@ -44,7 +44,7 @@ doctrine:
         password: %database_password%
         charset:  UTF8
         types:
-            bytea: OSU\CollageAPIBundle\Type\ByteaType
+            bytea: OSU\CollageAPIBundle\Types\ByteaType
         mapping_types:
             bytea: bytea
 
