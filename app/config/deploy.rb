@@ -5,7 +5,7 @@ set :app_path,    "app"
 
 set :user, "deployer"
 set :use_sudo, false
-set :repository,  "git@#{domain}:#{application}"
+set :repository,  "git://github.com/OSU-Android-PHP-Group/Collage-Web.git"
 set :branch, "production"
 set :scm,         :git
 set :git_enable_submodules, 1
